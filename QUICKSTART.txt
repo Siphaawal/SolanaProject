@@ -1,0 +1,87 @@
+================================================================================
+  SOLANA DEFI SNAPSHOT ANALYZER - QUICK START
+================================================================================
+
+STEP 1: Generate Mock Data
+---------------------------
+Run this command in your terminal:
+
+    python generate_mock_snapshot.py
+
+You should see output like:
+    "Generating mock Solana snapshot..."
+    "[SUCCESS] Mock snapshot generated successfully!"
+
+This creates the file: mock_snapshot.json
+
+
+STEP 2: Open the Dashboard
+---------------------------
+Double-click this file to open it in your web browser:
+
+    snapshot_viewer.html
+
+Or run from terminal:
+    Windows:  start snapshot_viewer.html
+    Mac:      open snapshot_viewer.html
+    Linux:    xdg-open snapshot_viewer.html
+
+
+STEP 3: Explore the Dashboard
+------------------------------
+You'll see:
+- Network statistics (TPS, validators, accounts)
+- DeFi ecosystem overview (TVL, protocols, pools)
+- Protocol rankings with visual bars
+- Three tabs:
+  * Liquidity Pools (TVL, volume, fees, APR)
+  * Accounts (addresses, balances, types)
+  * Recent Transactions (swaps, transfers, status)
+
+
+TROUBLESHOOTING
+---------------
+Problem: Python command not found
+Solution: Install Python from python.org
+
+Problem: Dashboard shows "Loading..."
+Solution: Make sure mock_snapshot.json is in the same folder
+
+Problem: No data showing
+Solution: Regenerate data with: python generate_mock_snapshot.py
+
+Problem: Want to customize data
+Solution: Edit generate_mock_snapshot.py (line 181-185)
+
+
+CUSTOMIZATION
+-------------
+To generate more data, edit generate_mock_snapshot.py:
+
+    snapshot = generator.generate_full_snapshot(
+        num_pools=100,         # Change this number
+        num_accounts=200,      # Change this number
+        num_transactions=500   # Change this number
+    )
+
+
+DEPENDENCIES
+------------
+If you see import errors, install dependencies:
+
+    pip install -r requirements.txt
+
+
+WHAT'S NEXT?
+------------
+- Refresh data: Click "Refresh Data" button in dashboard
+- Explore tabs: Click "Liquidity Pools", "Accounts", "Transactions"
+- Regenerate: Run generate_mock_snapshot.py again for new random data
+- Read more: Open README.md for complete documentation
+
+
+SUPPORT
+-------
+For more help, see README.md in this folder.
+
+================================================================================

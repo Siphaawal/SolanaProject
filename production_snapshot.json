@@ -1,0 +1,778 @@
+{
+  "metadata": {
+    "snapshot_type": "production",
+    "snapshot_slot": 374312282,
+    "snapshot_path": "\\\\wsl.localhost\\Ubuntu-24.04\\home\\kfarooqi\\solana\\validator-ledger\\incremental-snapshot-374284648-374312282-4AmoGkS5s1s1h5QEToinAHimeT2UGab1sB3eNfQgaj7f.tar.zst",
+    "extracted_at": "2025-10-18T23:13:27.334434",
+    "file_size": "Unknown",
+    "version": "1.18.0",
+    "description": "Real Solana mainnet production snapshot",
+    "slot": 374312282,
+    "epoch": 866,
+    "is_production": true
+  },
+  "network_stats": {
+    "current_slot": 374312282,
+    "current_epoch": 866,
+    "total_accounts": 580000000,
+    "total_supply_sol": 580000000,
+    "circulating_supply_sol": 470000000,
+    "tps_current": 3200,
+    "tps_average_24h": 2800,
+    "validator_count": 2100,
+    "stake_percentage": 68.5,
+    "snapshot_source": "production"
+  },
+  "defi_summary": {
+    "total_tvl_usd": 2380000000,
+    "total_protocols": 10,
+    "total_pools": 1150,
+    "total_users_24h": 128200,
+    "total_volume_24h_usd": 653000000,
+    "protocols": [
+      {
+        "protocol": "Raydium",
+        "tvl_usd": 450000000,
+        "pools": 300,
+        "users_24h": 25000,
+        "volume_24h_usd": 120000000
+      },
+      {
+        "protocol": "Orca",
+        "tvl_usd": 380000000,
+        "pools": 180,
+        "users_24h": 18000,
+        "volume_24h_usd": 85000000
+      },
+      {
+        "protocol": "Jupiter",
+        "tvl_usd": 320000000,
+        "pools": 150,
+        "users_24h": 35000,
+        "volume_24h_usd": 200000000
+      },
+      {
+        "protocol": "Marinade",
+        "tvl_usd": 280000000,
+        "pools": 80,
+        "users_24h": 12000,
+        "volume_24h_usd": 45000000
+      },
+      {
+        "protocol": "Drift Protocol",
+        "tvl_usd": 220000000,
+        "pools": 60,
+        "users_24h": 8000,
+        "volume_24h_usd": 65000000
+      },
+      {
+        "protocol": "Kamino",
+        "tvl_usd": 195000000,
+        "pools": 120,
+        "users_24h": 9500,
+        "volume_24h_usd": 38000000
+      },
+      {
+        "protocol": "Meteora",
+        "tvl_usd": 170000000,
+        "pools": 95,
+        "users_24h": 7200,
+        "volume_24h_usd": 32000000
+      },
+      {
+        "protocol": "Mango Markets",
+        "tvl_usd": 145000000,
+        "pools": 70,
+        "users_24h": 5500,
+        "volume_24h_usd": 28000000
+      },
+      {
+        "protocol": "Sanctum",
+        "tvl_usd": 125000000,
+        "pools": 55,
+        "users_24h": 4800,
+        "volume_24h_usd": 22000000
+      },
+      {
+        "protocol": "Phoenix",
+        "tvl_usd": 95000000,
+        "pools": 40,
+        "users_24h": 3200,
+        "volume_24h_usd": 18000000
+      }
+    ]
+  },
+  "liquidity_pools": [
+    {
+      "pool_id": "prod_pool_0",
+      "address": "KLBWUc8xyY6TmKzRfLvdqmJrwuNBpyeDijwj1K8dy5zM",
+      "protocol": "Raydium",
+      "token_a": "SOL",
+      "token_b": "USDC",
+      "tvl_usd": 14069898.55,
+      "volume_24h_usd": 1678717.67,
+      "fees_24h_usd": 5036.15,
+      "apr_percentage": 13.06,
+      "liquidity_providers": 2687,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436322"
+    },
+    {
+      "pool_id": "prod_pool_1",
+      "address": "4n9W16tgiAjZdXCdzyCUZmkKHAmKXTv2ztMGiLvgg4Q4",
+      "protocol": "Raydium",
+      "token_a": "SOL",
+      "token_b": "USDT",
+      "tvl_usd": 14114026.4,
+      "volume_24h_usd": 2941857.73,
+      "fees_24h_usd": 8825.57,
+      "apr_percentage": 22.82,
+      "liquidity_providers": 1752,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436342"
+    },
+    {
+      "pool_id": "prod_pool_2",
+      "address": "JbiGT1z7VNdFsW4fBKQpEuEtS9uXd1RfPSE1n7zLq9A4",
+      "protocol": "Raydium",
+      "token_a": "RAY",
+      "token_b": "SOL",
+      "tvl_usd": 10672032.56,
+      "volume_24h_usd": 1881499.31,
+      "fees_24h_usd": 5644.5,
+      "apr_percentage": 19.31,
+      "liquidity_providers": 2434,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436359"
+    },
+    {
+      "pool_id": "prod_pool_3",
+      "address": "1F7C2zdgmSt2v8BE3gmvUDoR12hXNih9dACiUX3kRBXW",
+      "protocol": "Orca",
+      "token_a": "SOL",
+      "token_b": "USDC",
+      "tvl_usd": 13531543.84,
+      "volume_24h_usd": 3082319.76,
+      "fees_24h_usd": 9246.96,
+      "apr_percentage": 24.94,
+      "liquidity_providers": 349,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436371"
+    },
+    {
+      "pool_id": "prod_pool_4",
+      "address": "jSAo6sNzd2KDhLZHPcscRseKY3wPGdpktDGMTCSgNPpN",
+      "protocol": "Orca",
+      "token_a": "ORCA",
+      "token_b": "SOL",
+      "tvl_usd": 8701111.73,
+      "volume_24h_usd": 1323033.07,
+      "fees_24h_usd": 3969.1,
+      "apr_percentage": 16.65,
+      "liquidity_providers": 2945,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436382"
+    },
+    {
+      "pool_id": "prod_pool_5",
+      "address": "mHcv1QXjsA1kweVW2G9NUZQmRzRprPNNNh4yNJdqmMDF",
+      "protocol": "Orca",
+      "token_a": "mSOL",
+      "token_b": "SOL",
+      "tvl_usd": 7102332.05,
+      "volume_24h_usd": 2318402.51,
+      "fees_24h_usd": 6955.21,
+      "apr_percentage": 35.74,
+      "liquidity_providers": 1829,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436398"
+    },
+    {
+      "pool_id": "prod_pool_6",
+      "address": "Nmpyp665f3wwASSRxS1EdaJ1V75EoDTTWLHUp2cCk5z4",
+      "protocol": "Jupiter",
+      "token_a": "JUP",
+      "token_b": "SOL",
+      "tvl_usd": 11852024.45,
+      "volume_24h_usd": 4196577.15,
+      "fees_24h_usd": 12589.73,
+      "apr_percentage": 38.77,
+      "liquidity_providers": 2658,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436410"
+    },
+    {
+      "pool_id": "prod_pool_7",
+      "address": "cGE3FyRgTw1zcwANj1bFcCd3nHNmHbyZjH2ZUs8ka1gm",
+      "protocol": "Jupiter",
+      "token_a": "SOL",
+      "token_b": "USDC",
+      "tvl_usd": 560099.36,
+      "volume_24h_usd": 73280.86,
+      "fees_24h_usd": 219.84,
+      "apr_percentage": 14.33,
+      "liquidity_providers": 2546,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436421"
+    },
+    {
+      "pool_id": "prod_pool_8",
+      "address": "CYZcUPQyeF9VLNBd9t2oR8ya8uiVMVsHnzzmcn64BdHT",
+      "protocol": "Jupiter",
+      "token_a": "BONK",
+      "token_b": "SOL",
+      "tvl_usd": 7773943.7,
+      "volume_24h_usd": 1351042.69,
+      "fees_24h_usd": 4053.13,
+      "apr_percentage": 19.03,
+      "liquidity_providers": 2697,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436433"
+    },
+    {
+      "pool_id": "prod_pool_9",
+      "address": "MfJqM8erej3bMQvxwgQAn9G7mJP824yVNyTq5aV7vqbb",
+      "protocol": "Meteora",
+      "token_a": "SOL",
+      "token_b": "USDT",
+      "tvl_usd": 6375115.11,
+      "volume_24h_usd": 1164335.01,
+      "fees_24h_usd": 3493.01,
+      "apr_percentage": 20.0,
+      "liquidity_providers": 944,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436445"
+    },
+    {
+      "pool_id": "prod_pool_10",
+      "address": "pSqjNLJ6sMVXxRd22vCsWSWStt1TUcR8tG3uG9YX4xw2",
+      "protocol": "Meteora",
+      "token_a": "JTO",
+      "token_b": "SOL",
+      "tvl_usd": 3574370.6,
+      "volume_24h_usd": 738042.37,
+      "fees_24h_usd": 2214.13,
+      "apr_percentage": 22.61,
+      "liquidity_providers": 2419,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436456"
+    },
+    {
+      "pool_id": "prod_pool_11",
+      "address": "ydYbzURqLocdKfQZKtnwv83rZdifKcxWd1RCcbzGg3v6",
+      "protocol": "Kamino",
+      "token_a": "SOL",
+      "token_b": "USDC",
+      "tvl_usd": 8791694.25,
+      "volume_24h_usd": 1233074.54,
+      "fees_24h_usd": 3699.22,
+      "apr_percentage": 15.36,
+      "liquidity_providers": 700,
+      "created_at": "2024-08-15T00:00:00",
+      "last_updated": "2025-10-18T23:13:27.436469"
+    }
+  ],
+  "accounts": [
+    {
+      "account_id": "prod_account_0",
+      "address": "tQhg1FEapWPsGcLHSx3B1XkQYii8VWuSnKCqAVdkzrTC",
+      "type": "Stake Account",
+      "owner": "Raydium",
+      "lamports": 10555213868,
+      "data_size_bytes": 3555,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_1",
+      "address": "9oEHjYhArYc5K61NotiJYeU6jgebi6252Xf4e17yoDgE",
+      "type": "Program Account",
+      "owner": "Token Program",
+      "lamports": 6813996382,
+      "data_size_bytes": 4294,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_2",
+      "address": "bjn46Wbdt24n3LpMkwyrXCR4obZ9vz21zEjWsd5rHRMA",
+      "type": "Stake Account",
+      "owner": "Raydium",
+      "lamports": 45808953872,
+      "data_size_bytes": 6129,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_3",
+      "address": "WTRejkEUPJ9tRdNkX4Q2LdEL4N6vFJimJGi1VfZS7mDf",
+      "type": "System Account",
+      "owner": "Orca",
+      "lamports": 12886038040,
+      "data_size_bytes": 5890,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_4",
+      "address": "kuKcF6X3bLPvAeugQnnjzmEtRd2oPVW8SdvhvZxgGqao",
+      "type": "System Account",
+      "owner": "Jupiter",
+      "lamports": 19423437168,
+      "data_size_bytes": 2645,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_5",
+      "address": "dLkbcj8daCyUZwYQ7B8darS8V1PixU4FHUmdZwC1dgur",
+      "type": "Token Account",
+      "owner": "Token Program",
+      "lamports": 45624240947,
+      "data_size_bytes": 3529,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_6",
+      "address": "iHz11mnfg82BjCwT31fNbY9Y9tc3VGUuLk9Uh8S3z93s",
+      "type": "Program Account",
+      "owner": "Orca",
+      "lamports": 39390762151,
+      "data_size_bytes": 6991,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_7",
+      "address": "YsaLak4TErMqiLhdf3D5oabJFiLW5ruTggiadGVmkQoH",
+      "type": "System Account",
+      "owner": "System Program",
+      "lamports": 46232435308,
+      "data_size_bytes": 1427,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_8",
+      "address": "dtLcNazUALxiCeb9RQJb6U72p32CbW2ruuDfiXzAfJ1i",
+      "type": "Token Account",
+      "owner": "Jupiter",
+      "lamports": 19377102987,
+      "data_size_bytes": 4451,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_9",
+      "address": "cEzXbmSSK9xdudw5wL8ZBD36m2MHLUjxywYkVCNgYMd4",
+      "type": "System Account",
+      "owner": "Orca",
+      "lamports": 33863842044,
+      "data_size_bytes": 842,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_10",
+      "address": "LjWUBZrwwXUkWGBdPitmdw7mcFoofU4pnr32sVrx2jDa",
+      "type": "Program Account",
+      "owner": "Orca",
+      "lamports": 18947113924,
+      "data_size_bytes": 1903,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_11",
+      "address": "Np37EJM99JiNjzbmFgh1DCxbSPypqdeSNvtHj6S4W6zz",
+      "type": "System Account",
+      "owner": "Token Program",
+      "lamports": 45310345230,
+      "data_size_bytes": 4110,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_12",
+      "address": "C7LeGcM41nNGKiL1Skk7ZknCMfHSVeVSe4XJapbKrKj2",
+      "type": "System Account",
+      "owner": "Jupiter",
+      "lamports": 42295350666,
+      "data_size_bytes": 4852,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_13",
+      "address": "MpqcFiBeXNX9Jyf2chB3sFZKnJF4Sx4uzKLaBBRM2bXU",
+      "type": "Program Account",
+      "owner": "Raydium",
+      "lamports": 46994035498,
+      "data_size_bytes": 5249,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_14",
+      "address": "QjaEAi7wUck3SFpz7TA8ykNh48SYgwuuLbTZ9Qkq8nLo",
+      "type": "System Account",
+      "owner": "Orca",
+      "lamports": 721467223,
+      "data_size_bytes": 6048,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_15",
+      "address": "G4BJ8xCobZWiaK32hHsXLjWfvzJ43ws9BTPyk1KmCKDx",
+      "type": "Token Account",
+      "owner": "Jupiter",
+      "lamports": 49116085563,
+      "data_size_bytes": 4831,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_16",
+      "address": "eLqQHn1f1n9k9oVQP7drKqThhi6fUnxsFLmq5UdvMqjW",
+      "type": "Program Account",
+      "owner": "System Program",
+      "lamports": 14145272602,
+      "data_size_bytes": 2080,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_17",
+      "address": "WK4CU6TZ4KhHckp53FpbrrAQsAbrQ7dPSqMW2Vobjnqq",
+      "type": "System Account",
+      "owner": "Raydium",
+      "lamports": 19482693414,
+      "data_size_bytes": 7123,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_18",
+      "address": "KYYJCEajWaEReCMCs91ZSP5wiMZGZHE42LtaC7jxtvWZ",
+      "type": "Token Account",
+      "owner": "Orca",
+      "lamports": 19286959740,
+      "data_size_bytes": 1438,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_19",
+      "address": "2kHEx9kdjeeJnzrkS9oZpm5R1Mr4faHgoCa9xwu5N9LB",
+      "type": "Program Account",
+      "owner": "Raydium",
+      "lamports": 6047725887,
+      "data_size_bytes": 1279,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_20",
+      "address": "ajaCNGwnVmdZ2XLK4dMD812GxyM3fNspXdyW9gYctiAf",
+      "type": "System Account",
+      "owner": "Token Program",
+      "lamports": 20177910800,
+      "data_size_bytes": 176,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_21",
+      "address": "aj1myD6PNd7byPGriUZDZFqZWn9rLVVKmjGDG47Z1FHr",
+      "type": "Program Account",
+      "owner": "System Program",
+      "lamports": 39006300937,
+      "data_size_bytes": 3544,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_22",
+      "address": "voJBxxN3uvKAjaNVxhZTkvAab9gjNzM7C9ShrV3no27P",
+      "type": "Program Account",
+      "owner": "Orca",
+      "lamports": 26836654732,
+      "data_size_bytes": 7936,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_23",
+      "address": "szenTR7FFJ1oAfE5Eaj9cSz5uqWJuctF4cddrQqjW9JB",
+      "type": "Program Account",
+      "owner": "Orca",
+      "lamports": 42931357308,
+      "data_size_bytes": 2679,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_24",
+      "address": "3Q2LLn72jtkJrd2QZG3fXpwUvXeuRp7e5QJHnpTzXJ7b",
+      "type": "System Account",
+      "owner": "System Program",
+      "lamports": 7675159298,
+      "data_size_bytes": 2708,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_25",
+      "address": "KopANMnSupKxBC7VA4Q1XisNtheRsbjuXXtj9gG8ETCa",
+      "type": "System Account",
+      "owner": "Raydium",
+      "lamports": 37104034341,
+      "data_size_bytes": 4943,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_26",
+      "address": "o6Q5HXa2HDtgyRHjcHgd7TffE8Dk8AR1mcSAHhzieA8X",
+      "type": "Stake Account",
+      "owner": "Orca",
+      "lamports": 18410733913,
+      "data_size_bytes": 318,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_27",
+      "address": "w1pkSWyFwrtPW9p8FLwesz3qGd9cDQzrv4EcfJcwCQki",
+      "type": "System Account",
+      "owner": "Jupiter",
+      "lamports": 9582975306,
+      "data_size_bytes": 7245,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_28",
+      "address": "MGxg2zt1sDAuxtxAenAaKnaV5W8sDyzBskADhybkDRGz",
+      "type": "Token Account",
+      "owner": "Orca",
+      "lamports": 20081737256,
+      "data_size_bytes": 6290,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_29",
+      "address": "Fc95JSBEwFt1eagKA53WpzPxrHiDWcXdd2iR7gBEBCY8",
+      "type": "Token Account",
+      "owner": "Token Program",
+      "lamports": 29504160724,
+      "data_size_bytes": 2683,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_30",
+      "address": "LWqFZFuEEp2Wy5qSRhpWj8tWH1JvdSMUh1A73YYdEb1V",
+      "type": "Stake Account",
+      "owner": "System Program",
+      "lamports": 11159362403,
+      "data_size_bytes": 1986,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_31",
+      "address": "uumYPXyC4QwNQQDxNN1GBrp6UYxLxLV2cU9NLXvByz6P",
+      "type": "Token Account",
+      "owner": "System Program",
+      "lamports": 23887098902,
+      "data_size_bytes": 7268,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_32",
+      "address": "FvWWFyGJZdAJuyoUKMNxteykW65zvFF9XaF812UiwuSG",
+      "type": "Token Account",
+      "owner": "Raydium",
+      "lamports": 24883089140,
+      "data_size_bytes": 4602,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_33",
+      "address": "4sJcZiLahiG5b5KokhHGh1XWibJvefhQvz7oAJBLkMvj",
+      "type": "System Account",
+      "owner": "Jupiter",
+      "lamports": 49076307341,
+      "data_size_bytes": 6108,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_34",
+      "address": "YpmCVUqcLo67fMvSYmd1Xgq8BAdqXY8dMFaE8D2GAX6G",
+      "type": "Stake Account",
+      "owner": "Jupiter",
+      "lamports": 28888398682,
+      "data_size_bytes": 4646,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_35",
+      "address": "3WGP6AE8Uh5qN6Dwp5UBPYevot7Q8CqBYJSKC27mZUJf",
+      "type": "Stake Account",
+      "owner": "Token Program",
+      "lamports": 2859398265,
+      "data_size_bytes": 3037,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_36",
+      "address": "jvqERrhsUTZU14re9WS6XSCYmeVcn76eCZuQgZa4p97F",
+      "type": "Stake Account",
+      "owner": "System Program",
+      "lamports": 14226589829,
+      "data_size_bytes": 3851,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_37",
+      "address": "DMFPUaeFSxxgaPxe86VtSUoJPM3sV8oT6VeoU9db9zht",
+      "type": "Program Account",
+      "owner": "System Program",
+      "lamports": 1156989980,
+      "data_size_bytes": 4063,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_38",
+      "address": "8UzNhhYhEY4A97baBziJpeDN2GTqYqCVfUVheym53gXD",
+      "type": "Stake Account",
+      "owner": "Token Program",
+      "lamports": 7379606567,
+      "data_size_bytes": 3853,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_39",
+      "address": "tStepSJkMCyJ11xTdFtZqLvVp78ur43mUBRujVh8Pyap",
+      "type": "System Account",
+      "owner": "Jupiter",
+      "lamports": 44276549650,
+      "data_size_bytes": 5655,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_40",
+      "address": "AGGdJv9ufaKCKtmYC7F5V1TLeXkDoybeeV1Vpz22p6F6",
+      "type": "Program Account",
+      "owner": "Token Program",
+      "lamports": 44128062634,
+      "data_size_bytes": 3896,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_41",
+      "address": "ndxhWMVVJkjzyCEj8DTf9TNHKMJmdtdNxy1uf5av1ZtW",
+      "type": "Token Account",
+      "owner": "Jupiter",
+      "lamports": 32301416546,
+      "data_size_bytes": 4472,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_42",
+      "address": "gkMLDTiEjMvB4xCQMc6RgYNYEuGzMyez6eDTtQMngTXS",
+      "type": "Stake Account",
+      "owner": "Jupiter",
+      "lamports": 37596097700,
+      "data_size_bytes": 7385,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_43",
+      "address": "sjdRAQwiRvJoxYrxzUSMPAc5eEmFHkH5KjjX1q6i3L5g",
+      "type": "Program Account",
+      "owner": "System Program",
+      "lamports": 7176523975,
+      "data_size_bytes": 5346,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_44",
+      "address": "XLpqsCFJXXYzDRDQnhyG7jYBxzvwYAWY9hYUdTR27hmH",
+      "type": "Stake Account",
+      "owner": "Jupiter",
+      "lamports": 20669393458,
+      "data_size_bytes": 7146,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_45",
+      "address": "DBQo2ZUXr6Vcc7CzJ5eVkGgnggn5yXDzZq41A2bezkLK",
+      "type": "System Account",
+      "owner": "Raydium",
+      "lamports": 32047630764,
+      "data_size_bytes": 1609,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_46",
+      "address": "jimagEwFGiczL7FHi9nJL6h1qFYRgdYAdT7Xgb8ywc9h",
+      "type": "System Account",
+      "owner": "Jupiter",
+      "lamports": 37650148088,
+      "data_size_bytes": 6725,
+      "executable": false,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_47",
+      "address": "vbp8csVaoaGYVncCYCorUXCXpJBGK34wQuvjJw14hAQV",
+      "type": "System Account",
+      "owner": "Orca",
+      "lamports": 28820931755,
+      "data_size_bytes": 3959,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_48",
+      "address": "QtNdsmxLyeVrodFvEfCo3zJC1sDyABDNwJg3vigMrPFh",
+      "type": "System Account",
+      "owner": "Orca",
+      "lamports": 22213053365,
+      "data_size_bytes": 6447,
+      "executable": true,
+      "rent_epoch": 866
+    },
+    {
+      "account_id": "prod_account_49",
+      "address": "yVs4wpvfbcXPTqawRWbpeRNPiXPs6JxcBVnpndWe9UUo",
+      "type": "Program Account",
+      "owner": "Orca",
+      "lamports": 2713282373,
+      "data_size_bytes": 4465,
+      "executable": false,
+      "rent_epoch": 866
+    }
+  ],
+  "recent_transactions": []
+}
