@@ -75,6 +75,9 @@ SolanaProject/
 
 The web dashboard provides 6 main views:
 
+![Dashboard Overview](ScreenShots/Screenshot%202025-10-20%20170245.png)
+*Network statistics and DeFi ecosystem overview with protocol rankings*
+
 #### 1. Network Statistics
 - **TPS**: Transactions per second
 - **Validators**: Active validator count
@@ -99,15 +102,24 @@ Visual comparison of:
 - APR (Annual Percentage Rate)
 - Liquidity provider count
 
+![Liquidity Pools View](ScreenShots/Screenshot%202025-10-20%20170314.png)
+*Detailed liquidity pool analytics with TVL, volume, fees, and APR*
+
 #### 5. Accounts
 - Account addresses
 - Balances (SOL/tokens)
 - Account types
 
+![Accounts View](ScreenShots/Screenshot%202025-10-20%20170336.png)
+*Account details showing addresses, types, owners, and balances*
+
 #### 6. Transactions
 - Recent swaps, transfers, liquidity adds
 - Transaction fees
 - Status tracking
+
+![Transactions View](ScreenShots/Screenshot%202025-10-20%20170356.png)
+*Recent transactions with signatures, types, amounts, and status*
 
 ---
 
@@ -296,7 +308,7 @@ python3 test_snapshot_discovery.py
 
 **Option 2: Use Community Tool**
 ```bash
-git clone https://github.com/c29r3/solana-snapshot-finder.git
+git clone https://github.com/coderigo/solana-snapshot-finder.git
 cd solana-snapshot-finder
 python3 snapshot-finder.py --snapshot_path ~/snapshots
 ```
@@ -449,7 +461,7 @@ sudo apt install python3-schedule python3-requests python3-tqdm
 
 ### Snapshot Downloader Implementation
 
-**Inspired by:** [c29r3/solana-snapshot-finder](https://github.com/c29r3/solana-snapshot-finder) (GPL-3.0)
+**Inspired by:** [coderigo/solana-snapshot-finder](https://github.com/coderigo/solana-snapshot-finder) (GPL-3.0)
 
 **Our implementation:** Clean-room rewrite (no GPL-3.0 restrictions)
 
@@ -544,7 +556,7 @@ python3 test_snapshot_discovery.py
 
 - [Solana Documentation](https://docs.solana.com/)
 - [Solana Discord](https://discord.gg/solana) - #validator-support
-- [c29r3/solana-snapshot-finder](https://github.com/c29r3/solana-snapshot-finder) - Alternative tool
+- [coderigo/solana-snapshot-finder](https://github.com/coderigo/solana-snapshot-finder) - Alternative tool
 - [Solana Beach](https://solanabeach.io/) - Network explorer
 - [Solana Status](https://status.solana.com/) - Network status
 
