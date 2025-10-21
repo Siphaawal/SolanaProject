@@ -75,8 +75,8 @@ SolanaProject/
 
 The web dashboard provides 6 main views:
 
-![Dashboard Overview](ScreenShots/Screenshot%202025-10-20%20170245.png)
-*Network statistics and DeFi ecosystem overview with protocol rankings*
+![Dashboard Overview - Production Mode](ScreenShots/Screenshot%202025-10-20%20204734.png)
+*Network statistics and DeFi ecosystem overview with protocol rankings (Production Mode)*
 
 #### 1. Network Statistics
 - **TPS**: Transactions per second
@@ -102,24 +102,21 @@ Visual comparison of:
 - APR (Annual Percentage Rate)
 - Liquidity provider count
 
-![Liquidity Pools View](ScreenShots/Screenshot%202025-10-20%20170314.png)
-*Detailed liquidity pool analytics with TVL, volume, fees, and APR*
+![Liquidity Pools View - Production Mode](ScreenShots/Screenshot%202025-10-20%20204758.png)
+*Detailed liquidity pool analytics with TVL, volume, fees, and APR (Production Mode)*
 
 #### 5. Accounts
 - Account addresses
 - Balances (SOL/tokens)
 - Account types
 
-![Accounts View](ScreenShots/Screenshot%202025-10-20%20170336.png)
-*Account details showing addresses, types, owners, and balances*
+![Accounts View - Production Mode](ScreenShots/Screenshot%202025-10-20%20204819.png)
+*Account details showing addresses, types, owners, and balances (Production Mode)*
 
 #### 6. Transactions
 - Recent swaps, transfers, liquidity adds
 - Transaction fees
 - Status tracking
-
-![Transactions View](ScreenShots/Screenshot%202025-10-20%20170356.png)
-*Recent transactions with signatures, types, amounts, and status*
 
 ---
 
