@@ -1,0 +1,162 @@
+[
+  {
+    "Account": "Solana Foundation Withdraw Authority",
+    "SOL Native Value": "$9,544,220.14",
+    "SOL Stake Value": "$16,234,403,545.31",
+    "Token Balance Value": "$39.25",
+    "Total Value": "$16,243,947,804.7",
+    "Tags": "SOL Stake Whale2+"
+  },
+  {
+    "Account": "Jito (JitoSOL) Stake Pool Withdraw Authority",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$2,650,547,699.63",
+    "Token Balance Value": "$160.53",
+    "Total Value": "$2,650,547,860.16",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "DoubleZero (dzSOL) Stake Pool Withdraw Authority",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$1,952,500,751.95",
+    "Token Balance Value": "$0",
+    "Total Value": "$1,952,500,751.95",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "Binance Staked SOL (BNSOL) Pool Withdraw Authority",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$1,750,029,418.97",
+    "Token Balance Value": "$0",
+    "Total Value": "$1,750,029,418.97",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "8fxe1q...VUCvpM",
+    "SOL Native Value": "$2,157.58",
+    "SOL Stake Value": "$1,449,055,312.65",
+    "Token Balance Value": "$390,915,878.14",
+    "Total Value": "$1,839,973,348.37",
+    "Tags": "SOL Stake Whale4+"
+  },
+  {
+    "Account": "c5f9zf...6EeQkk",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$1,226,459,062.43",
+    "Token Balance Value": "$0",
+    "Total Value": "$1,226,459,062.43",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "vXi7gb...inVjTJ",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$1,203,294,359.46",
+    "Token Balance Value": "$54.97",
+    "Total Value": "$1,203,294,414.43",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "Marinade (mSOL) Stake  Pool Withdraw Authority",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$1,135,696,764.36",
+    "Token Balance Value": "$6.6",
+    "Total Value": "$1,135,696,770.96",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "ECvrAX...HVeCrQ",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$996,787,596.71",
+    "Token Balance Value": "$8.65",
+    "Total Value": "$996,787,605.36",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "58iDuw...TASRMe",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$996,783,784.83",
+    "Token Balance Value": "$8.65",
+    "Total Value": "$996,783,793.48",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "6YzZyj...DbgqVF",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$996,782,706.11",
+    "Token Balance Value": "$8.65",
+    "Total Value": "$996,782,714.76",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "5dPq2Z...gcpGNh",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$996,781,374.12",
+    "Token Balance Value": "$8.65",
+    "Total Value": "$996,781,382.77",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "C87nHw...HanAF6",
+    "SOL Native Value": "$179.37",
+    "SOL Stake Value": "$996,306,444.25",
+    "Token Balance Value": "$2.05",
+    "Total Value": "$996,306,625.67",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "Aj3K93...8VmUnq",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$996,306,442.34",
+    "Token Balance Value": "$8.65",
+    "Total Value": "$996,306,450.99",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "Jupiter (JupSOL) Stake Pool Withdraw Authority",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$991,109,041.02",
+    "Token Balance Value": "$66.05",
+    "Total Value": "$991,109,107.07",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "7cypuG...FcyMi7",
+    "SOL Native Value": "$0",
+    "SOL Stake Value": "$978,737,912.56",
+    "Token Balance Value": "$8.65",
+    "Total Value": "$978,737,921.21",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "2Wk4x9...Wxo7c5",
+    "SOL Native Value": "$389.13",
+    "SOL Stake Value": "$968,201,648.84",
+    "Token Balance Value": "$68.09",
+    "Total Value": "$968,202,106.06",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "FTX/Alameda Staking Address",
+    "SOL Native Value": "$25,910.26",
+    "SOL Stake Value": "$955,560,210.37",
+    "Token Balance Value": "$12.16",
+    "Total Value": "$955,586,132.78",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "4Rm2L8...dK4GrZ",
+    "SOL Native Value": "$58,282,535.9",
+    "SOL Stake Value": "$900,673,899.18",
+    "Token Balance Value": "$1.98",
+    "Total Value": "$958,956,437.06",
+    "Tags": "SOL Stake Whale"
+  },
+  {
+    "Account": "Jupiter Labs Perpetuals Vault Authority",
+    "SOL Native Value": "$452.61",
+    "SOL Stake Value": "$882,216,011.09",
+    "Token Balance Value": "$1,882,419,730.07",
+    "Total Value": "$2,764,636,193.77",
+    "Tags": "Whale6+"
+  }
+]
