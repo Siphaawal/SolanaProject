@@ -436,9 +436,10 @@
 
         <div class="section">
             <div class="tabs">
-                <button class="tab active" onclick="switchTab('pools')">Liquidity Pools</button>
-                <button class="tab" onclick="switchTab('accounts')">Accounts</button>
-                <button class="tab" onclick="switchTab('transactions')">Recent Transactions</button>
+                <button class="tab active" onclick="switchTab('pools', event)">Liquidity Pools</button>
+                <button class="tab" onclick="switchTab('accounts', event)">Accounts</button>
+                <button class="tab" onclick="switchTab('transactions', event)">Recent Transactions</button>
+                <button class="tab" onclick="switchTab('rich', event)">Rich Wallets</button>
             </div>
 
             <div id="pools-tab" class="tab-content active">
@@ -488,6 +489,23 @@
                         </tr>
                     </thead>
                     <tbody id="transactions-body"></tbody>
+                </table>
+            </div>
+
+            <div id="rich-tab" class="tab-content">
+                <table id="rich-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Account</th>
+                            <th>SOL Native Value</th>
+                            <th>SOL Stake Value</th>
+                            <th>Token Balance Value</th>
+                            <th>Total Value</th>
+                            <th>Tags</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rich-body"></tbody>
                 </table>
             </div>
         </div>
@@ -553,6 +571,7 @@
             renderPools();
             renderAccounts();
             renderTransactions();
+            renderRichWallets();
         }
 
         // Render metadata
@@ -736,18 +755,53 @@
         }
 
         // Switch tabs
-        function switchTab(tabName) {
+        function switchTab(tabName, evt) {
             // Update tab buttons
             document.querySelectorAll('.tab').forEach(tab => {
                 tab.classList.remove('active');
             });
-            event.target.classList.add('active');
+            if (evt && evt.target) evt.target.classList.add('active');
 
             // Update tab content
             document.querySelectorAll('.tab-content').forEach(content => {
                 content.classList.remove('active');
             });
-            document.getElementById(`${tabName}-tab`).classList.add('active');
+            const el = document.getElementById(`${tabName}-tab`);
+            if (el) el.classList.add('active');
+        }
+
+        // Render top 20 richest accounts from rich_wallets.json
+        async function renderRichWallets() {
+            try {
+                const resp = await fetch('rich_wallets.json');
+                if (!resp.ok) throw new Error('Failed to load rich_wallets.json');
+                const wallets = await resp.json();
+
+                if (!Array.isArray(wallets) || wallets.length === 0) {
+                    document.getElementById('rich-body').innerHTML = `
+                        <tr><td colspan="7" style="text-align:center;padding:40px;color:#666;">No rich wallets data available.</td></tr>
+                    `;
+                    return;
+                }
+
+                const html = wallets.slice(0,20).map((w, i) => `
+                    <tr>
+                        <td>${i+1}</td>
+                        <td><span class="address">${w.Account}</span></td>
+                        <td>${w['SOL Native Value']}</td>
+                        <td>${w['SOL Stake Value']}</td>
+                        <td>${w['Token Balance Value']}</td>
+                        <td><strong>${w['Total Value']}</strong></td>
+                        <td>${w.Tags || ''}</td>
+                    </tr>
+                `).join('');
+
+                document.getElementById('rich-body').innerHTML = html;
+            } catch (err) {
+                document.getElementById('rich-body').innerHTML = `
+                    <tr><td colspan="7" style="text-align:center;padding:40px;color:#666;">Error loading rich wallets: ${err.message}</td></tr>
+                `;
+            }
         }
 
         // Load data on page load
